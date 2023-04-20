@@ -1,7 +1,7 @@
 {
-  "name": "back1",
+  "name": "FullStack-FitFromHeart.com-with-pug",
   "version": "1.0.0",
-  "description": "back1",
+  "description": "FullStack-FitFromHeart.com-with-pug",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
