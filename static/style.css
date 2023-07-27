@@ -1,11 +1,16 @@
+html{
+    height: 100%;
+}
 body{
+    position: relative;
     font-family: 'Baloo Bhai 2', cursive;
     margin: 0px;
     padding: 0px;
     background: url('../static/bgm.png');
     background-size: cover;  
-    height: 1080px;
     color: white;
+    min-height: 100%;
+    padding-bottom: 6.75rem;
 }
 .left{
     /* border: 2px solid red; */
@@ -71,9 +76,9 @@ body{
 }
 .container{
     border: 2px solid white;
-    margin: 100px 80px;
+    margin: 100px 80px 10px 80px;
     padding: 20px 30px;
-    width: 33%;
+    width: 500px;
     border-radius: 30px;
 }
 .container h1{
@@ -94,4 +99,17 @@ body{
     margin:10px auto;
     font-size: 25px;
     border-radius: 10px;
+}
+.line{
+    margin: 0px 120px;
+}
+footer {
+    text-align: right;
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 3px 10px 5px 0px;
+    right: 0;
+    left: 0;
+    bottom: 0;
 }
